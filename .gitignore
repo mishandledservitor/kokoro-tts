@@ -1,2 +1,12 @@
 # MacOs files
 .DS_Store
+
+# Build artifacts
+venv/
+kokoro
+__pycache__/
+*.pyc
+
+# Model files (large, downloaded at setup)
+*.onnx
+*.bin
