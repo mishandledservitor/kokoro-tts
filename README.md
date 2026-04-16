@@ -2,7 +2,7 @@
 
 > Local text-to-speech using [Kokoro-82M](https://github.com/hexgrad/kokoro) via ONNX Runtime. No cloud, no API keys, no PyTorch.
 
-**Version 1.0.1** | [Changelog](CHANGELOG.md) | Part of [VoxBox](https://github.com/mishandledservitor/voxbox)
+**Version 1.0.2** | [Changelog](CHANGELOG.md) | [License](LICENSE) | Part of [VoxBox](https://github.com/mishandledservitor/voxbox)
 
 ---
 
@@ -24,6 +24,7 @@
 - [Troubleshooting](#troubleshooting)
 - [Uninstall](#uninstall)
 - [File Manifest](#file-manifest)
+- [License](#license)
 
 ---
 
@@ -296,3 +297,10 @@ Prompts before deleting each component (venv, model files, launcher, output file
 | `README.md` | This documentation | — |
 | `CHANGELOG.md` | Version history | — |
 | `VERSION` | Current version number | — |
+| `LICENSE` | MIT license + upstream attribution | — |
+
+---
+
+## License
+
+MIT — see [LICENSE](LICENSE) for the full text and upstream attribution for Kokoro-82M, kokoro-onnx, ONNX Runtime, and ffmpeg.

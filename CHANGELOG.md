@@ -6,6 +6,14 @@ Format follows [Keep a Changelog](https://keepachangelog.com/). Versions follow 
 
 ---
 
+## [1.0.2] — 2026-04-16
+
+### Added
+- LICENSE file (MIT) with upstream attribution for Kokoro-82M, kokoro-onnx, ONNX Runtime, ffmpeg
+
+### Changed
+- `.gitignore` expanded to cover IDE/editor files (`.vscode/`, `.idea/`, swap files), local env files (`.env`, `.envrc`), and Python build artifacts (`*.egg-info/`, `build/`, `dist/`)
+
 ## [1.0.1] — 2026-04-03
 
 ### Fixed

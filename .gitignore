@@ -1,12 +1,29 @@
-# MacOs files
+# macOS
 .DS_Store
+.AppleDouble
+.LSOverride
 
 # Build artifacts
 venv/
 kokoro
 __pycache__/
 *.pyc
+*.pyo
+*.egg-info/
+build/
+dist/
 
 # Model files (large, downloaded at setup)
 *.onnx
 *.bin
+
+# Editor / IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Local environment
+.env
+.envrc
